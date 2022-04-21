@@ -1,18 +1,21 @@
-header  {
+header {
     display: flex;
     justify-content: center;
 }
-header p{
-    font-family: Bahnschrift;
+
+header p {
+   font-family: 'RobotoCondensedRegular';
     color: white;
     font-size: 15px;
     text-align: center;
     border-radius: 60px;
 
 }
-header h1{
-text-transform: uppercase;
-    font-family: Bahnschrift;
+
+header h1 {
+    text-transform: uppercase;
+   font-family: 'RobotoCondensedRegular';
+   font-weight: bolder;
     color: white;
     font-size: 40px;
     text-align: center;
@@ -21,7 +24,8 @@ text-transform: uppercase;
     width: 450px;
     padding: 30px;
 }
-.container{
+
+.container {
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -29,50 +33,51 @@ text-transform: uppercase;
 }
 
 
-.GridContainer{
+#grid-container {
     border: rgb(25, 0, 255) solid 10px;
-    height: 500px ;
-    width: 500px ;
+    height: 500px;
+    width: 500px;
     margin: 0px;
-    background-color: red;
     display: grid;
 
 }
 
-.grid{
+.grid {
 
     border: 1px solid rgba(0, 0, 0, 0.137);
     background-color: white;
 }
-.grid:hover{
+
+.grid:hover {
 
     background-color: royalblue;
 }
-.hoverGrid{
+
+.hoverGrid {
 
     background-color: black;
 }
 
-#buttons{
+#buttons {
 
-display: flex;
-margin-top: 30px;
-justify-content: center;
-gap: 30px;
-
-}
-
-button{
-border-radius: 20px;
-font-family: Bahnschrift;
-border: black solid 2px;
-background-color: yellow;
-padding: 20px;
-text-align: center;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 30px;
 
 }
 
-body{
+button {
+    border-radius: 20px;
+   font-family: 'RobotoCondensedRegular';
+    border: black solid 2px;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+
+}
+
+body {
 
     background-color: whitesmoke;
 }

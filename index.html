@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/roboto-condensed" type="text/css"/>
     <title>Ethc a sketch</title>
-    <script src="/js/main.js" defer></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Etch a sketch <p>Choose the grid and the color, then hover the mouse to paint.
-            To clear the grid - just push the same or another grid button.</p></h1>
+                To clear the grid - just push the same or another grid button.</p>
+        </h1>
 
     </header>
-<div class="container">
-</div> 
-<section id="buttons"></section>
+    <div class="container">
+        <div id="grid-container">
+
+        </div>
+    </div>
+    <section id="buttons">
+
+        <button id="random-color" onclick="color()">Random Color</button>
+        <button id="clear-grid" onclick="clearGrid()">Clear Gird</button>
+        <button id="rest-grid" onclick="rest()">Reset Grid Number(s)</button>
+
+    </section>
 </body>
+
 </html>
